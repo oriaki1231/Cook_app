@@ -7,6 +7,6 @@ class User < ApplicationRecord
   has_many :recipes, dependent: :destroy
   attachment :profile_image
 
-  validates :username, presence: true
+  validates :name, presence: true
   
 end
