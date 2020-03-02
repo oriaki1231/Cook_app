@@ -25,13 +25,6 @@
 	border-radius: 50%;
  }
  
- .main-image {
-	 height: 940px;
-	 background-image: url(simple.jpg);
-	 background-repeat: no-repeat;
-	 background-size: contain;
- }
-
  .navbar-item{
 	 margin-left: 15px;
 	 font-size: 18px;
@@ -39,4 +32,8 @@
 
  .section-main{
 	 padding-top: 150px;
+	 height: 680px;
+	 background-image: url(simple.jpg);
+	 background-repeat: no-repeat;
+	 background-size: 100% 100%;
  }
