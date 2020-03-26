@@ -28,6 +28,44 @@ $font-color:  white;
 }
 
 .bun{
-  height: 200px;
-  background-color: yellow;
+  height: 1200px;
+
+}
+
+.foot{
+  height:             250px;
+  width:              100vw;
+  background-color: #333333;
+  position:           relative;
+  &__contents{
+    display:          flex;
+    justify-content:  center;
+    &--content{
+      margin:40px 30px 20px;
+      h1{
+        font-size:    18px;
+        color:        $font-color;
+      }
+      ul{
+        margin:40px 0 20px;
+        li{
+          margin-bottom: 10px;
+          a{
+            color:      $font-color;
+            font-size:  12px;
+          }
+        }
+      }
+    }
+  }
+  &__icon{
+    text-align: center;
+    position:   absolute;
+    bottom:     10%;
+    left:       43%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color: $font-color;
+  }
 }
