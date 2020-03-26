@@ -18,6 +18,11 @@
  @import "bulma";
  @import 'reset';
 
+ .fullscreen{
+	 height: 100%;
+	 width: 100%;
+ }
+
 
  .notification:not(:last-child){
 	margin-bottom: 0;
