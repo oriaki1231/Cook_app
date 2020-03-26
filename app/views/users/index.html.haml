@@ -1,0 +1,22 @@
+%section.hero.is-warning
+  .hero-body
+    .container
+      %h1.title
+        ユーザーリスト
+%section.section
+  .container
+    .columns.is-multiline
+      - @users.each do |user|
+        .column.is-3
+          .card
+            .card-content
+              .card-image
+                %figure.image
+                  = link_to user_path(user) do
+                    = attachment_image_tag user, :profile_image, fallback: "no-image.png"
+            .card-content
+              .media
+                .media-content
+                  .title= link_to user.name, user_path(user)
+              .content
+                投稿数：#{user.recipes.count}
