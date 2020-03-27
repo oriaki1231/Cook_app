@@ -1,0 +1,8 @@
+.pick_up__category--flex
+  - @recipes.each do |recipe|
+    = link_to recipe_path(recipe) do
+      .product
+        .image
+          = attachment_image_tag recipe, :image, width: "200px", height: "200px"
+        .info
+          = recipe.title

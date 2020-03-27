@@ -1,0 +1,11 @@
+.pick_up__category--flex
+  - @users.each do |user|
+    = link_to user_path(user) do
+      .product
+        .image
+          = attachment_image_tag user, :profile_image, width: "200px", height: "200px"
+        .info
+          .info__name
+            = user.name
+          .info__profile
+            = user.profile
