@@ -1,6 +1,5 @@
 
-
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# Name
  
 分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
  
@@ -29,7 +28,7 @@ Requirementで列挙したライブラリなどのインストール方法を説
 pip install huga_package
 ```
  
-# Usage
+# How to use
  
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
  
@@ -50,12 +49,3 @@ python demo.py
 * 作成者
 * 所属
 * E-mail
- 
-# License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
