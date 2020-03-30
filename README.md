@@ -3,15 +3,12 @@
 
 ### Cook app 〜料理を楽しむ全ての人に〜
 
-
-
 # Overview
 
 Cook appは誰でも簡単にレシピをシェアできるレシピサイト!  
 登録すればいつでもどこでも全てのレシピを閲覧・投稿ができます。  
 ![83761e05a5366bde1a05ae09aeebd5ad](https://user-images.githubusercontent.com/60604379/77889150-630ba080-72a8-11ea-8833-ba99863f7ab9.gif)
 
- 
 # DEMO
 
  1.まずは新規登録をしよう  
@@ -34,38 +31,37 @@ URL : http://13.113.184.38/
 email : test@gmail.com  
 pass : 123456
  
-# Features
+# Production background
  
-"hoge"のセールスポイントや差別化などを説明する
+- 自分が料理好きということもあり、手軽にレシピを共有できるサイトをゼロから作成してみたかった。  
+- トップ画面に新着レシピの写真を載せることで常に最新の料理が見れるサイトにした。
+
+# Ingenuity
+
+- プログラミングスクールで学んだカリキュラム外の技術の使用  
+ （cssフレームワーク、画像のアップロードが簡単になるgem "refile"の利用）  
+- 統一感のあるビューで見やすく、オシャレにまとめた
+
+# Environment & Technology used
  
-# Requirement
+* ruby 2.5.1  
+* Rails 5.2.4.1  
+  
+- gem 'devise'  
+- gem "refile", require: "refile/rails", github: 'manfe/refile'  
+- gem "refile-mini_magick"  
+- gem "bulma-rails"  
+- gem 'pry-rails'  
+- gem "refile-s3"  
+- gem 'haml-rails'
  
-"hoge"を動かすのに必要なライブラリなどを列挙する
+# To be implemented
  
-* huga 3.5.2
-* hogehuga 1.0.2
- 
-# Installation
- 
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
- 
-# How to use
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
- 
-# Note
- 
-注意点などがあれば書く
+- レシピのカテゴリー別登録機能
+- レシピ検索機能
+- お気に入り機能
+- 動画投稿機能
+- コメント、レビュー機能
 
 # DB
 
