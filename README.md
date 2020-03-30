@@ -1,5 +1,5 @@
 
-# Name
+# Title
 
 ### Cook app 〜料理を楽しむ全ての人に〜
 
