@@ -3,11 +3,11 @@
 
 ### Cook app 〜料理を楽しむ全ての人に〜
 
-Cook appは誰でも簡単にレシピをシェアできるレシピサイトです
+
 
 # Overview
 
-ユーザー登録制のレシピ共有サイト  
+Cook appは誰でも簡単にレシピをシェアできるレシピサイト!  
 登録すればいつでもどこでも全てのレシピを閲覧・投稿ができます。  
 ![83761e05a5366bde1a05ae09aeebd5ad](https://user-images.githubusercontent.com/60604379/77889150-630ba080-72a8-11ea-8833-ba99863f7ab9.gif)
 
