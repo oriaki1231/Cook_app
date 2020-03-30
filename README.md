@@ -41,6 +41,34 @@ python demo.py
 # Note
  
 注意点などがあれば書く
+
+# DB
+
+## usersテーブル
+|Column|Type|Options|
+|------|----|-------|
+| name               | string | null: false |
+| email              | string | null: false |
+| encrypted_password | string | null: false |
+| profile            | text   ||
+| profile_image_id   | string ||
+
+### Association
+- has_many   :recipes, dependent: :destroy
+- attachment :profile_image
+
+
+## recipesテーブル
+|Column|Type|Options|
+|------|----|-------|
+| title     | string  | null: false|
+| body      | text    | null: false|
+| image_id  | string  | null: false|
+| user_id   | integer | null: false|
+
+### Association
+- belongs_to :user
+- attachment :image
  
 # Author
  
