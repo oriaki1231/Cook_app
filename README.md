@@ -14,7 +14,12 @@ Cook appは誰でも簡単にレシピをシェアできるレシピサイトで
  
 # DEMO
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+- 新規登録
+![f67ecf5a0bbe438848d07f50eabdb7d8](https://user-images.githubusercontent.com/60604379/77890034-c4803f00-72a9-11ea-9a2e-7724a3829b84.gif)
+
+- レシピ投稿
+![c8c32544e0a6df76657ec3fb7db76c77](https://user-images.githubusercontent.com/60604379/77890369-525c2a00-72aa-11ea-8052-3344c34bf0e2.gif)
+
  
 # Features
  
@@ -77,6 +82,3 @@ python demo.py
 - belongs_to :user
 - attachment :image
  
-# Author
- 
- akira_orio
