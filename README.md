@@ -25,6 +25,14 @@ Cook appは誰でも簡単にレシピをシェアできるレシピサイト!
 - レシピ投稿
 ![c8c32544e0a6df76657ec3fb7db76c77](https://user-images.githubusercontent.com/60604379/77890369-525c2a00-72aa-11ea-8052-3344c34bf0e2.gif)
 
+# Production environment
+
+Cook app  
+URL : http://13.113.184.38/  
+
+テストアカウント  
+email : test@gmail.com  
+pass : 123456
  
 # Features
  
