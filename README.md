@@ -66,7 +66,7 @@ pass : 123456
 
 # DB
 
-## usersテーブル
+### usersテーブル
 |Column|Type|Options|
 |------|----|-------|
 | name               | string | null: false |
@@ -80,7 +80,7 @@ pass : 123456
 - attachment :profile_image
 
 
-## recipesテーブル
+### recipesテーブル
 |Column|Type|Options|
 |------|----|-------|
 | title     | string  | null: false|
