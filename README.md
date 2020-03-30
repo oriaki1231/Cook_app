@@ -45,8 +45,4 @@ python demo.py
  
 # Author
  
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
+ akira_orio
