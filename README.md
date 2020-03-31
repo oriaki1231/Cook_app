@@ -15,8 +15,8 @@ Cook app
 URL : http://13.113.184.38/  
 
 テストアカウント  
-email : test@gmail.com  
-pass : 123456
+email :  test@gmail.com  
+pass  :  123456
  
 # Production background
  
